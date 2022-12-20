@@ -1,0 +1,113 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+body {
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+article > * + * {
+  margin-top: 1em;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+* {
+  font-family: Arial;
+}
+.select-jobs {
+  border: none;
+  border: 2px solid rgb(248, 230, 249);
+  border-radius: 20px;
+  padding: 10px 10px;
+}
+.input-job {
+  background-color: rgb(184, 161, 185);
+  border: none;
+  border: 2px solid rgb(248, 230, 249);
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+.main-container {
+  width: 100%;
+  max-width: 500px;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.table-container {
+  margin-bottom: 40px;
+}
+
+.jobs-table-container {
+  margin-top: 40px;
+}
+
+.table-name {
+  font-size: 32px;
+  padding-left: 80px;
+}
+
+.table {
+  border-collapse: collapse;
+  border: 2px solid #c3c3c3;
+}
+
+tr {
+  border-bottom: 2px solid #c3c3c3;
+}
+
+th {
+  padding-right: 60px;
+  border-right: 2px solid #c3c3c3;
+}
+
+td {
+  border-right: 2px solid #c3c3c3;
+}
